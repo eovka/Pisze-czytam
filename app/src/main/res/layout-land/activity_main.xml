@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBackground"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/image_size"
+            android:contentDescription="@string/image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ksiazka_zeszyt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nazwa_firmy"
+                    android:textSize="@dimen/text_bigger"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/textStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/redakcja_korekta"
+                    android:textStyle="bold" />
+
+                <TextView
+                    style="@style/textStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/adres" />
+
+                <TextView
+                    style="@style/textStyles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/textStyles.Clickable"
+                    android:drawableStart="@drawable/email_icon"
+                    android:onClick="sendMail"
+                    android:text="@string/e_mail_2" />
+
+                <TextView
+                    android:id="@+id/phone_textview"
+                    style="@style/textStyles.Clickable"
+                    android:drawableStart="@drawable/phone_icon"
+                    android:linksClickable="true"
+                    android:onClick="dialPhoneNumber"
+                    android:text="@string/phone" />
+
+                <TextView
+                    style="@style/textStyles.Clickable"
+                    android:drawableStart="@drawable/web_icon"
+                    android:onClick="openSite"
+                    android:text="@string/www" />
+
+                <TextView
+                    android:id="@+id/facebook_txt"
+                    style="@style/textStyles.Clickable"
+                    android:drawableStart="@drawable/facebook"
+                    android:onClick="openFB"
+                    android:text="@string/pic_fb" />
+
+                <TextView
+                    android:id="@+id/instagram_txt"
+                    style="@style/textStyles.Clickable"
+                    android:drawableStart="@drawable/instagram"
+                    android:onClick="openInstagram"
+                    android:text="@string/pic_instagram" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

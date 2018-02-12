@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Piszę i czytam</string>
+    <string name="image_description">notebook on a table</string>
+    <string name="nazwa_firmy">Piszę i czytam \nUrszula Drabińska</string>
+    <string name="redakcja_korekta">Redakcja i korekta tekstów </string>
+    <string name="adres">Kościelna 66 lok. 48 \n05&#8211;200 Wołomin</string>
+    <string name="nip">NIP: 1251465866</string>
+    <string name="www">pisze-czytam.pl</string>
+    <string name="pic_fb">pisze.czytam</string>
+    <string name="pic_instagram">\@przeczytane</string>
+    <string name="e_mail">pisze.czytam\@gmail.com</string>
+    <string name="e_mail_2">pisze.czytam\n\@gmail.com</string>
+    <string name="phone">+48 791 462 452</string>
+</resources>
