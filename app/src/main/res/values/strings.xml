@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Piszę i czytam</string>
+    <string name="app_name">Polish proofreader</string>
     <string name="image_description">notebook on a table</string>
     <string name="company_name" translatable="false">Piszę i czytam</string>
     <string name="company_description">Proofreading and editing online. The best smooth for your Polish texts.</string>
