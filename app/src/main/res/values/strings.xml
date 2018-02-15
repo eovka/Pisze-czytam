@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Piszę i czytam</string>
+    <string name="app_name" translatable="false">Piszę i czytam</string>
     <string name="image_description">notebook on a table</string>
-    <string name="company_name">Piszę i czytam</string>
+    <string name="company_name" translatable="false">Piszę i czytam</string>
     <string name="company_description">Proofreading and editing online. The best smooth for your Polish texts.</string>
-    <string name="company_description_short">The best smooth for your Polish texts!</string>
-    <string name="address">Kościelna 66/48 \n05&#8211;200 Wołomin \nPoland</string>
-    <string name="www_address">pisze-czytam.pl</string>
-    <string name="full_www">http://pisze-czytam.pl</string>
-    <string name="company_fb">pisze.czytam</string>
-    <string name="fb_address">http://facebook.com/pisze.czytam</string>
-    <string name="company_instagram">\@przeczytane</string>
-    <string name="insta_address">http://instagram.com/przeczytane</string>
-    <string name="e_mail">pisze.czytam\@gmail.com</string>
-    <string name="e_mail_2">pisze.czytam\n\@gmail.com</string>
-    <string name="phone">+48 791 462 452</string>
+    <string name="address">Kościelna 66/48  05&#8211;200 Wołomin  Poland</string>
+    <string name="www_address" translatable="false">pisze-czytam.pl</string>
+    <string name="full_www" translatable="false">http://pisze-czytam.pl</string>
+    <string name="company_fb" translatable="false">pisze.czytam</string>
+    <string name="fb_address" translatable="false">http://facebook.com/pisze.czytam</string>
+    <string name="company_instagram" translatable="false">\@przeczytane</string>
+    <string name="insta_address" translatable="false">http://instagram.com/przeczytane</string>
+    <string name="e_mail" translatable="false">pisze.czytam\@gmail.com</string>
+    <string name="e_mail_2" translatable="false">pisze.czytam\n\@gmail.com</string>
+    <string name="phone" translatable="false">+48 791 462 452</string>
     <string name="write_us">Write to us &#8213; we\'ll read you for sure.</string>
 </resources>
