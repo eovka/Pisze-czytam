@@ -16,7 +16,13 @@
             android:layout_height="@dimen/image_size"
             android:contentDescription="@string/image_description"
             android:scaleType="centerCrop"
-            android:src="@drawable/ksiazka_zeszyt" />
+            android:src="@drawable/reading_writing" />
+
+        <TextView
+            style="@style/textStyles"
+            android:text="@string/company_name"
+            android:textSize="@dimen/text_bigger"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,30 +38,19 @@
 
                 <TextView
                     style="@style/textStyles"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/nazwa_firmy"
-                    android:textSize="@dimen/text_bigger"
+                    android:text="@string/company_description"
                     android:textStyle="bold" />
 
                 <TextView
-                    style="@style/textStyles"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/redakcja_korekta"
-                    android:textStyle="bold" />
+                    style="@style/textStyles.Clickable"
+                    android:drawablePadding="@dimen/drawable_padding"
+                    android:drawableStart="@drawable/location_marker"
+                    android:onClick="openMap"
+                    android:text="@string/address" />
 
                 <TextView
                     style="@style/textStyles"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/adres" />
-
-                <TextView
-                    style="@style/textStyles"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/nip" />
+                    android:text="@string/write_us" />
             </LinearLayout>
 
             <LinearLayout
@@ -82,21 +77,20 @@
                     style="@style/textStyles.Clickable"
                     android:drawableStart="@drawable/web_icon"
                     android:onClick="openSite"
-                    android:text="@string/www" />
+                    android:text="@string/www_address" />
 
                 <TextView
                     android:id="@+id/facebook_txt"
                     style="@style/textStyles.Clickable"
                     android:drawableStart="@drawable/facebook"
-                    android:onClick="openFB"
-                    android:text="@string/pic_fb" />
+                    android:text="@string/company_fb" />
 
                 <TextView
                     android:id="@+id/instagram_txt"
                     style="@style/textStyles.Clickable"
                     android:drawableStart="@drawable/instagram"
                     android:onClick="openInstagram"
-                    android:text="@string/pic_instagram" />
+                    android:text="@string/company_instagram" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

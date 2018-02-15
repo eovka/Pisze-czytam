@@ -7,22 +7,23 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:fontFamily">serif-monospace</item>
-        <item name="android:layout_marginBottom">@dimen/margin_bottom</item>
+        <item name="android:layout_marginBottom">@dimen/small_padding</item>
         <item name="android:textColor">@color/colorText</item>
     </style>
 
     <style name="textStyles">
-        <item name="android:paddingLeft">@dimen/side_paddings</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/medium_padding</item>
         <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:paddingRight">@dimen/medium_padding</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="textStyles.Clickable">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorAccent</item>
         <item name="android:drawablePadding">@dimen/drawable_padding</item>
-        <item name="android:paddingRight">@dimen/margin_bottom</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:paddingRight">@dimen/medium_padding</item>
     </style>
 
 </resources>
