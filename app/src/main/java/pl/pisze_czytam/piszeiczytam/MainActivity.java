@@ -51,6 +51,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intentSite);
     }
 
+    /** open FB in the app (if installed) or in the browser - the code written with help found:
+     * https://stackoverflow.com/questions/20264573/how-to-open-facebook-app-from-my-app
+     * and https://www.youtube.com/watch?v=iMxJC_OB1Ws
+     */
+
     public static Intent getOpenFacebookIntent(Context context) {
         try {
             context.getPackageManager().getPackageInfo("com.facebook.katana", 0);
