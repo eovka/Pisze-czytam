@@ -8,7 +8,6 @@
     <string name="www_address" translatable="false">pisze-czytam.pl</string>
     <string name="full_www" translatable="false">http://pisze-czytam.pl</string>
     <string name="company_fb" translatable="false">pisze.czytam</string>
-    <string name="fb_address" translatable="false">http://facebook.com/pisze.czytam</string>
     <string name="company_instagram" translatable="false">\@przeczytane</string>
     <string name="insta_address" translatable="false">http://instagram.com/przeczytane</string>
     <string name="e_mail" translatable="false">pisze.czytam\@gmail.com</string>
