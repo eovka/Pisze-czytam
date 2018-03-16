@@ -4,7 +4,7 @@
     <string name="image_description">notebook on a table</string>
     <string name="company_name" translatable="false">Piszę i czytam</string>
     <string name="company_description">Proofreading and editing online. The best smooth for your Polish texts.</string>
-    <string name="address">Kościelna 66/48  05&#8211;200 Wołomin  Poland</string>
+    <string name="address">Kościelna 66/48 \n05&#8211;200 Wołomin \nPoland</string>
     <string name="www_address" translatable="false">pisze-czytam.pl</string>
     <string name="full_www" translatable="false">http://pisze-czytam.pl</string>
     <string name="company_fb" translatable="false">pisze.czytam</string>
